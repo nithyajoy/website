@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nithya Joy - Web Developer</title>
+    <style>
+        /* Global styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        section {
+            padding: 60px 20px;
+            margin: 20px 0;
+        }
+
+        /* Header Section */
+        header {
+            background: #2e3b4e;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        header a {
+            display: inline-block;
+            background-color: #ff7043;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        header a:hover {
+            background-color: #ff5722;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #fff;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        .about h2 {
+            color: #2e3b4e;
+            font-size: 2.5em;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            margin: 20px 0;
+            color: #555;
+        }
+
+        /* Skills Section */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+        .skills div {
+            background: #ffeb3b;
+            padding: 30px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .skills div:hover {
+            transform: scale(1.1);
+        }
+
+        .skills h3 {
+            font-size: 1.8em;
+            color: #2e3b4e;
+        }
+
+        /* Project Section */
+        .projects {
+            background-color: #f8f8f8;
+            text-align: center;
+            border-radius: 10px;
+            padding: 40px;
+        }
+
+        .projects h2 {
+            font-size: 2.5em;
+            color: #2e3b4e;
+        }
+
+        .projects .project {
+            background-color: #ff7043;
+            color: white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .projects .project:hover {
+            background-color: #ff5722;
+        }
+
+        .projects .project a {
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #2e3b4e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #ff7043;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            .about p, .skills h3 {
+                font-size: 1.1em;
+            }
+
+            .skills {
+                grid-template-columns: 1fr;
+            }
+
+            .projects .project {
+                font-size: 0.9em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Nithya Joy</h1>
+        <p>IT Student | Coding Enthusiast | Aspiring Web Developer</p>
+        <a href="#about">Learn More About Me</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm an IT student with a passion for coding, teaching, and dancing. I'm always excited to learn new things and expand my knowledge, especially in web development!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div>
+            <h3>Leadership</h3>
+            <p>I love leading and collaborating with teams to achieve our goals.</p>
+        </div>
+        <div>
+            <h3>Communication</h3>
+            <p>Clear and effective communication is key to success in any project.</p>
+        </div>
+        <div>
+            <h3>Coding</h3>
+            <p>I'm passionate about coding and problem-solving, especially in web development.</p>
+        </div>
+        <div>
+            <h3>Dancing</h3>
+            <p>Dancing allows me to express myself creatively and stay active.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Book Rental System</h3>
+            <p>A simple yet effective platform for managing book rentals.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Nithya Joy | <a href="mailto:nithya@example.com">Contact Me</a></p>
+    </footer>
+
+</body>
+</html>
